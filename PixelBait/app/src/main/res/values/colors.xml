@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pb_black">#000000</color>
+    <color name="pb_navy">#1B2A4A</color>
+    <color name="pb_violet">#6B2FA0</color>
+    <color name="pb_success">#22C55E</color>
+    <color name="pb_warning">#F59E0B</color>
+    <color name="pb_error">#EF4444</color>
+</resources>

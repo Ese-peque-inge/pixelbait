@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pixel Bait</string>
+
+    <!-- Onboarding: Términos -->
+    <string name="onboarding_step_terms">Términos</string>
+    <string name="onboarding_step_camera">Cámara</string>
+    <string name="onboarding_step_apikey">API Key</string>
+    <string name="terms_title">Términos y Condiciones</string>
+    <string name="terms_version">Versión 1.0.0 — Agosto 2026</string>
+    <string name="terms_section1_title">1. Uso de la Aplicación</string>
+    <string name="terms_section1_body">Pixel Bait es una herramienta de ciberseguridad diseñada para analizar códigos QR y URLs en busca de amenazas maliciosas. El uso de esta aplicación implica la aceptación plena de estos términos.</string>
+    <string name="terms_section2_title">2. Recopilación de Datos</string>
+    <string name="terms_section2_body">La aplicación analiza URLs escaneadas mediante la API de VirusTotal. No almacenamos datos personales ni compartimos información con terceros no autorizados. El historial de escaneos se guarda localmente por 7 días.</string>
+    <string name="terms_section3_title">3. Permisos Requeridos</string>
+    <string name="terms_section3_body">La app requiere acceso a la cámara para escanear códigos QR. Este permiso es estrictamente necesario para la funcionalidad principal y no se utilizará para ningún otro propósito.</string>
+    <string name="terms_section4_title">4. Limitación de Responsabilidad</string>
+    <string name="terms_section4_body">Pixel Bait proporciona análisis basados en bases de datos de terceros (VirusTotal). No garantizamos detección al 100%% de todas las amenazas. El usuario es responsable de sus acciones al navegar por URLs.</string>
+    <string name="btn_next">Siguiente</string>
+
+    <!-- Onboarding: Cámara -->
+    <string name="camera_title">Acceso a Cámara</string>
+    <string name="camera_description">Pixel Bait necesita acceso a tu cámara para escanear códigos QR y detectar URLs potencialmente peligrosas en tiempo real.</string>
+    <string name="camera_bullet_1">Solo activo durante el escaneo</string>
+    <string name="camera_bullet_2">Nunca graba ni almacena imágenes</string>
+    <string name="camera_bullet_3">Procesamiento 100%% local</string>
+    <string name="camera_required_badge">PERMISO REQUERIDO POR ANDROID</string>
+
+    <!-- Onboarding: API Key -->
+    <string name="apikey_title">Configuración de API</string>
+    <string name="apikey_subtitle">Ingresa tu clave para activar el análisis de amenazas.</string>
+    <string name="apikey_label">VirusTotal API Key</string>
+    <string name="apikey_placeholder">e.g. a1b2c3d4e5f6…</string>
+    <string name="apikey_help_link">¿No tienes una clave? Ayuda</string>
+    <string name="apikey_info_banner">Tu clave API de VirusTotal se almacena de forma segura en el dispositivo. Nunca se transmite a servidores externos de Pixel Bait.</string>
+    <string name="apikey_error_empty">Ingresa una clave para continuar</string>
+    <string name="btn_activate_protection">Activar Protección</string>
+
+    <!-- Guía de ayuda -->
+    <string name="help_title">Cómo obtener tu API Key de VirusTotal</string>
+    <string name="help_step1">1. Ingresa a virustotal.com y crea una cuenta gratuita.</string>
+    <string name="help_step2">2. Confirma tu correo electrónico.</string>
+    <string name="help_step3">3. Abre tu perfil y selecciona \"API Key\".</string>
+    <string name="help_step4">4. Copia la clave y pégala en Pixel Bait.</string>
+
+    <!-- Scanner -->
+    <string name="scanner_title">Escáner QR</string>
+    <string name="status_active">ACTIVO</string>
+    <string name="scanner_hint">Apunta al código QR</string>
+
+    <!-- Resultado -->
+    <string name="risk_high">ALTO RIESGO</string>
+    <string name="risk_medium">MODERADO</string>
+    <string name="risk_low">SEGURO</string>
+    <string name="risk_malicious_tag">MALICIOSO</string>
+    <string name="detected_by">Detectado por VirusTotal</string>
+    <string name="criticality_level">NIVEL DE CRITICIDAD</string>
+    <string name="detection_engines">MOTORES DE DETECCIÓN</string>
+    <string name="count_malicious">Maliciosos</string>
+    <string name="count_suspicious">Sospechosos</string>
+    <string name="count_clean">Sin detección</string>
+    <string name="btn_block">Bloquear</string>
+    <string name="btn_view_report">Ver reporte</string>
+    <string name="btn_continue_own_risk">Acceder bajo mi consentimiento</string>
+    <string name="checking_message">Verificando…</string>
+    <string name="not_verified">No se pudo verificar</string>
+    <string name="quota_reached">Límite alcanzado, intenta más tarde</string>
+
+    <!-- Historial -->
+    <string name="tab_history">Historial</string>
+    <string name="tab_settings">Ajustes</string>
+    <string name="history_title">Escaneos Recientes</string>
+    <string name="history_records_count">%1$d registros almacenados</string>
+    <string name="history_retention_badge">VIGENCIA: 7 DÍAS</string>
+    <string name="history_engines_count">%1$d motores</string>
+    <string name="history_expiry_notice_title">Tu historial se eliminará pronto</string>
+    <string name="history_expiry_notice_body">Algunos registros cumplirán 7 días y se borrarán automáticamente.</string>
+
+    <!-- Ajustes -->
+    <string name="settings_version">Versión 1.0.0 — Protección Activa</string>
+    <string name="settings_license_valid">LICENCIA VÁLIDA</string>
+    <string name="settings_appearance">APARIENCIA</string>
+    <string name="settings_brand_palette">Paleta de Marca</string>
+    <string name="settings_brand_palette_desc">Azul / Violeta (#1B2A4A + #6B2FA0)</string>
+    <string name="settings_dark_theme">Tema Oscuro</string>
+    <string name="settings_dark_theme_desc">Negro absoluto (#000000)</string>
+    <string name="settings_legal_support">LEGAL &amp; SOPORTE</string>
+    <string name="settings_terms">Términos y Condiciones</string>
+    <string name="settings_terms_desc">Revisar el acuerdo de uso</string>
+    <string name="settings_update_apikey">Actualizar API Key</string>
+    <string name="settings_update_apikey_desc">VirusTotal — clave configurada</string>
+    <string name="settings_clear_history">Borrar Historial</string>
+    <string name="settings_clear_history_desc">Eliminar todos los registros</string>
+    <string name="settings_official_site">Sitio Web Oficial</string>
+
+    <!-- Monitor (fuera de alcance, solo UI) -->
+    <string name="monitor_unsafe_site">SITIO NO SEGURO — Pixel Bait está monitoreando esta sesión</string>
+    <string name="monitor_blocked_title">¡ACCESO BLOQUEADO!</string>
+    <string name="monitor_blocked_subtitle">Pixel Bait — Protección Activa</string>
+    <string name="monitor_anomaly_body">Anomalía detectada: el sitio intentó solicitar permisos de geolocalización sin interacción del usuario. Comportamiento típico de sitios de phishing — lista negra activada.</string>
+    <string name="monitor_blacklist_badge">AÑADIDO A LISTA NEGRA LOCAL</string>
+    <string name="monitor_exit_site">Salir del sitio</string>
+    <string name="monitor_continue_risk">Continuar (riesgo)</string>
+    <string name="monitor_panel_title">MONITOR DE SEGURIDAD</string>
+    <string name="monitor_downloads">Descargas</string>
+    <string name="monitor_downloads_status">Bloqueadas</string>
+    <string name="monitor_camera">Cámara</string>
+    <string name="monitor_camera_status">Protegida</string>
+    <string name="monitor_location">Ubicación</string>
+    <string name="monitor_location_status">Bloqueada</string>
+
+    <!-- Permisos -->
+    <string name="permission_denied_message">El permiso de cámara es necesario para escanear códigos QR.</string>
+    <string name="permission_open_settings">Abrir Ajustes</string>
+</resources>
