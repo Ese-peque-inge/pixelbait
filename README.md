@@ -1,4 +1,4 @@
-# Pixel Bait — Proyecto Android (código generado)
+# Pixel Bait — Proyecto Android 
 
 
 ## Cómo abrir y ejecutar
